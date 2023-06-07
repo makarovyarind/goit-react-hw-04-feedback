@@ -1,0 +1,21 @@
+.button {
+    margin-right: 20px;
+    padding: 10px 30px;
+    background-color: rgb(122, 120, 120);
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+};
+
+.button:hover {
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgb(20, 130, 20);
+  };
+
+.button:focus {
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgb(20, 130, 20);
+  }
