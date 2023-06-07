@@ -15,7 +15,7 @@ export function App() {
       [option]: prevStatus[option] + 1, 
     }));
   };
-
+ 
   const countTotalFeedback = () => {
     return Object.values(status).reduce((accumulator, option) => accumulator + option, 0);
   };
