@@ -12,7 +12,7 @@ export function App() {
   const onLeaveFeedback = option => {
     setstatus(prevStatus => ({
       ...prevStatus,
-      [option]: prevStatus[option] + 1,
+      [option]: prevStatus[option] + 1, 
     }));
   };
 
